@@ -1,0 +1,7 @@
+[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/powerline.git]
+checkout = vcsh clone git@github.com:marklee77/powerline.git powerline
+commit   = vcsh powerline commit -a
+update   = vcsh powerline pull
+push     = vcsh powerline push
+status   = vcsh powerline status
+gc       = vcsh powerline gc

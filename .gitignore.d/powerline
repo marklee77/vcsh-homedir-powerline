@@ -1,0 +1,11 @@
+*
+!.config
+!.config/mr
+!.config/mr/config.d
+!.config/mr/config.d/powerline
+!.config/powerline
+!.config/powerline/*
+!.fonts.conf.d
+!.fonts.conf.d/10-powerline-symbols.conf
+!.gitignore.d
+!.gitignore.d/powerline
