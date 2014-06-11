@@ -1,8 +1,5 @@
 *
 !.config
-!.config/mr
-!.config/mr/config.d
-!.config/mr/config.d/powerline
 !.config/powerline
 !.config/powerline/*
 !.fonts.conf.d
