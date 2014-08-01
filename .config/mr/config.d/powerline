@@ -1,0 +1,5 @@
+[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/powerline.git]
+checkout = vcsh clone https://gitlab.stillwell.me/mark/vcsh-homedir-powerline.git powerline
+update   = vcsh powerline pull
+fixups   = pip install --user git+git://github.com/Lokaltog/powerline
+setpush  = vcsh powerline remote set-url --push origin git@stillwell.me:mark/vcsh-homedir-powerline.git
